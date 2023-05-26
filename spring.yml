@@ -52,4 +52,4 @@ spec:
               service:
                 name: angular-app-svc
                 port:
-                  number: 80
+                  number: 8085
