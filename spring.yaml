@@ -36,7 +36,7 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: angular-app-svc_Ingress
+  name: angular-app-svc-Ingress
   annotations:
     kubernetes.io/ingress.class: alb
     alb.ingress.kubernetes.io/scheme: internet-facing
@@ -52,4 +52,4 @@ spec:
               service:
                 name: angular-app-svc
                 port:
-                  number: 8085
+                  number: 80
