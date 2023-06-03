@@ -29,9 +29,9 @@ spec:
     app: angular-app
   ports:
     - protocol: TCP
-      port: 8085
+      port: 80
       targetPort: 8085
-  type: nodeport 
+  type: NodePort
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
